@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+	<html lang="pt">
+		<head>
+			<meta charset="utf-8">
+			<title> Cadastro </title>
+		</head>
+		<body>
+			<h1>Cadastro</h1>
+			<h2>Informações pessoais</h2>
+			<form id="f_cadastro">
+				<div> 
+					<label for="nome">Nome</label> 
+				</div>
+				<div> 
+					<input required maxlength="15" minlength="3" type="text" id="nome" name="nome" placeholder="Pedro"> 
+				</div>
+				<div> 
+					<label for="sobrenome">Sobrenome</label> 
+				</div>
+				<div>
+					<input minlength="3" maxlength="10" required type="text" id="sobrenome" name="sobrenome" placeholder="Almeida"> 
+				</div>
+				<div> 
+					<label for="idade">Idade</label> 
+				</div>
+				<div>
+					<input min="8" max="122" required type="number" id="idade" name="idade" placeholder="21">
+				</div>
+				<div>
+					<label for="email">E-mail</label>
+				</div>	
+				<div>
+					<input required type="email" id="email" name="email" placeholder="Pedro@gmail.com">
+				</div>
+				<div>
+					<label for="telefone">Telefone</label>
+				</div>
+				<div>
+					<input required maxlength="15" minlength="9" type="text" id="telefone" name="telefone" placeholder="(21)9 98634561">
+				</div>
+				<div>
+					<label for="cidade">Cidade</label>
+				</div>
+				<div>
+					<input required minlength="4" maxlength="16" type="text" id="cidade" name="cidade" placeholder="Rio de Janeiro">
+				</div>
+				<div>
+					<label for="estado">Estado</label>
+						<select id="estado" name="time">
+							<option value="AC">AC</option>
+							<option value="AL">AL</option>
+							<option value="AP">AP</option>
+							<option value="AM">AM</option>
+							<option value="BA">BA</option>
+							<option value="CE">CE</option>
+							<option value="DF">DF</option>
+							<option value="ES">ES</option>
+							<option value="GO">GO</option>
+							<option value="MA">MA</option>
+							<option value="MT">MT</option>
+							<option value="MS">MS</option>
+							<option value="MG">MG</option>
+							<option value="PA">PA</option>
+							<option value="PB">PB</option>
+							<option value="PR">PR</option>
+							<option value="PE">PE</option>
+							<option value="PI">PI</option>
+							<option value="RJ">RJ</option>
+							<option value="RN">RN</option>
+							<option value="RS">RS</option>
+							<option value="RO">RO</option>
+							<option value="RR">RR</option>
+							<option value="SC">SC</option>
+							<option value="SP">SP</option>
+							<option value="SE">SE</option>
+							<option value="TO">TO</option>
+						</select>
+				</div>
+				<div>
+					<label for="CPF">CPF</label>
+				</div>
+				<div>
+					<input required minlength="9" maxlength="12" type="text" id="CPF" name="CPF" placeholder="4568917868">
+				</div>
+				<div>
+					<label for="bio">Bio</label>
+				</div>
+				<div>
+					<textarea id="bio" minlength="15" maxlength="140" name="bio" rows="3" cols="20" placeholder="Fale um pouco sobre você."></textarea>
+				</div>
+				<div>
+					<h3>Idiomas</h3>
+				</div>
+				<div>
+					<label for="idioma1">Português</label>
+					<input type="checkbox" id="idioma1" name="idioma1" value="Português">
+				</div>
+				<div>
+					<label for="idioma2">Inglês</label>
+					<input type="checkbox" id="idioma2" name="idioma2" value="Inglês">
+				</div>
+				<div>
+					<label for="idioma3">Francês</label>
+					<input type="checkbox" id="idioma3" name="idioma3" value="Francês">
+				</div>
+				<div>
+					<label for="idioma4">Russo</label>
+					<input type="checkbox" id="idioma4" name="idioma4" value="Russo">
+				</div>
+				<div>
+					<label for="idioma5">Italiano</label>
+					<input type="checkbox" id="idioma5" name="idioma5" value="Italiano">
+				</div>
+				<div>
+					<label for="idioma6">Espanhol</label>
+					<input type="checkbox" id="idioma6" name="idioma6" value="Espanhol">
+				</div>
+				<div>
+					<label for="idioma7">Mandarim</label>
+					<input type="checkbox" id="idioma7" name="idioma7" value="Mandarim">
+				</div>
+				<div>
+					<label for="idioma8">Japonês</label>
+					<input type="checkbox" id="idioma8" name="idioma8" value="Japonês">
+				</div>
+				<div>
+					<label for="idioma9">Latim</label>
+					<input type="checkbox" id="idioma9" name="idioma9" value="Latim">
+				</div>
+				<div>
+					<label for="idioma10">Grego</label>
+					<input type="checkbox" id="idioma10" name="idioma10" value="Grego">
+				</div>
+				<fieldset>
+					<legend><h2>Preferencias</h2></legend>
+					<div>
+						<label for="corfav">Cor favorita</label>
+						<input type="color" id="corfav" name="corfav">
+					</div>
+					<div>
+						<label for="renda">Renda mensal</label>	
+						<input max="100000" min="100" type="number" id="renda" name="renda" value="100">
+					</div>
+					<div>
+						<label for="time">Time torcedor</label>
+						<select id="time" name="time">
+							<option value="Atlético Mineiro">Atlético Mineiro</option>
+							<option value="Atlético Paranaense">Atlético Paranaense</option>
+							<option value="Botafogo">Botafogo</option>
+							<option value="Corinthians">Corinthians</option>
+							<option value="Coritiba">Coritiba</option>
+							<option value="Cruzeiro">Cruzeiro</option>
+							<option value="Figueirense">Figueirense</option>
+							<option value="Flamengo">Flamengo</option>
+							<option value="Fluminense">Fluminense</option>
+							<option value="Fortaleza">Fortaleza</option>
+							<option value="Goiás">Goiás</option>
+							<option value="Grêmio">Grêmio</option>
+							<option value="Guarani">Guarani</option>
+							<option value="Internacional">Internacional</option>
+							<option value="Juventude">Juventude</option>
+							<option value="Palmeiras">Palmeiras</option>
+							<option value="Paraná">Paraná</option>
+							<option value="Ponte Preta">Ponte Preta</option>
+							<option value="Santos">Santos</option>
+							<option value="São Paulo">São Paulo</option>
+							<option value="Vasco da Gama">Vasco da Gama</option>
+						</select>
+					</div>
+					<div>
+						<h3>Comidas</h3>
+					</div>
+					<div>
+						<label for="Comida1">Baiana</label>
+						<input type="checkbox" id="Comida1" name="Comida1" value="Baiana">
+					</div>
+					<div>
+						<label for="Comida2">Japonêsa</label>
+						<input type="checkbox" id="Comida2" name="Comida2" value="Japonêsa">
+					</div>
+					<div>
+						<label for="Comida3">Mexicana</label>
+						<input type="checkbox" id="Comida3" name="Comida3" value="Mexicana">
+					</div>
+					<div>
+						<label for="Comida4">Italiana</label>
+						<input type="checkbox" id="Comida4" name="Comida4" value="Italiana">
+					</div>
+					<div>
+						<label for="Comida5">Fastfood</label>
+						<input type="checkbox" id="Comida5" name="Comida5" value="Fastfood">
+					</div>
+					<div>
+						<label for="Comida6">Vegana</label>
+						<input type="checkbox" id="Comida6" name="Comida6" value="Vegana">
+					</div>
+					<div>
+						<label for="Comida7">Vegetariana</label>
+						<input type="checkbox" id="Comida7" name="Comida7" value="Vegetariana">
+					</div>
+					<div>
+						<label for="Comida8">Francêsa</label>
+						<input type="checkbox" id="Comida8" name="Comida8" value="Francêsa">
+					</div>
+				</fieldset>
+			</form>
+			<button type="submit" form="f_cadastro">Enviar</button>
+			<!--││Easter
+				││Egg
+				\/ -->
+			<div>
+				<img src="Yasuomagoado.jpg" alt="Yasuo tristonho por ninguem gostar dele." title="Maguo">
+			</div>
+		</body>
+	</html>
