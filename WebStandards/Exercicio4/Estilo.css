@@ -1,0 +1,22 @@
+#titulo
+{
+    font-family: Arial;
+    font-size: 20px;
+    color: red;
+}
+.paragrafo
+{
+    font-family: Verdana;
+    font-size: 14px;
+    text-align: justify;
+}
+#segundoParagrafo
+{
+    background-color: #E1E1E1;
+    color: white;
+}
+#terceiroParagrafo
+{
+    margin: 20px;
+    font-style: italic;
+}
