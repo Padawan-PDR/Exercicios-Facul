@@ -1,0 +1,68 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-nav :hover
+{
+    background-color: black;
+    color: white;
+    
+}
+
+.btn-light
+{
+--bs-btn-border-radius: .2rem;
+}
+
+.titulo
+{
+    font-size: 400%;
+}
+
+@media only screen and (max-width: 828px) 
+{
+    .titulo 
+    {
+      font-size: 200%;
+    }
+
+    .imagemPilha
+    {
+        width: 40%;
+        height: 40%;
+    }
+
+    .imagem7x3
+    {
+        width: 90%;
+        height: 60%;
+    }
+}
+
+@media only screen and (max-width: 468px) 
+{
+    .titulo 
+    {
+      font-size: 150%;
+    }
+
+    .imagemPilha
+    {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 356px) 
+{
+    .titulo 
+    {
+      font-size: 100%;
+    }
+
+    .imagemPilha
+    {
+        width: 40%;
+        height: 40%;
+    }
+}
